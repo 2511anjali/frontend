@@ -11,3 +11,112 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*----- footer------ */
+#footer_para {
+  font-size:11px;
+  
+}
+.tag{
+  text-decoration: none;
+  font-size:13px;
+  font-weight: 400;
+  color: grey;
+}
+#anchor_tags{
+  display: flex;
+  justify-content: space-around;
+}
+.f_tag{
+  text-decoration: none;
+  font-weight: 600;
+  color: grey;
+  
+}
+.active{
+  margin-right: 60px;
+}
+.main_logo{
+  width: 120px;
+  height:20px;
+  margin:20px 80px 20px 100px;
+  
+}
+
+/* ------Navbar---- */
+.nav-div{
+  display: flex;
+  justify-content:space-evenly;
+  border-bottom: 1px rgb(224, 219, 219) solid;
+ position: fixed;
+ width: 100%;
+ top:0;
+ background-color: white;
+}
+.nav-item{
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:40px ;
+}
+.active{
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.list_img{
+  height:30px;
+  width:30px;
+  padding-right: 10px;
+}
+
+.support_para{
+  color: white;
+  font-size:larger;
+  font-weight: 500;
+}
+.support_para2{
+  color: white;
+  font-size:22px;
+  font-weight: 400;
+  margin-right: 60px;
+}
+.currency{
+  font-size :50px;
+}
+.landing{
+  height:300px;
+  width:500px
+}
+#para2{
+  font-size: small;
+  color: grey;
+}
+#choice{
+  font-size: small;
+}
+
+/* -----Universe----- */
+.universe_image{
+  height:80px;
+  width:140px;
+}
+.universe_para{
+  font-size: small;
+}
+
+/* -----support----- */
+.ticket_anchor{
+  font-size: 15px;
+}
+.form-control{
+  width:575px;
+  border-radius:6px 0 0 6px;
+  height:50px;
+}
+.search_btn{
+  border-radius: 0 6px 6px 0;
+}
+.hero_div{
+  height:500px;
+}
